@@ -14,7 +14,7 @@ int main()
         cin>>k;
         int flag=0,c=0;
         if(a[0]==k){
-          cout<<"Present ";
+          cout<<"Present "<<1;
         }
         int i=1;
         while(i<n&& a[i]<=k)
@@ -25,7 +25,7 @@ int main()
         int mid, beg=i/2, e=min(i,n-1);
         while(beg<=e)
       {
-         c++;
+          c++;
          mid=(beg+e)/2;
          if(a[mid]==k)
          {
