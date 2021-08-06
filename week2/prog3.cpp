@@ -4,7 +4,7 @@ int main()
 {
     int t;
     cin>>t;
-    while(t--)
+    while(t>0)
     {
         int n,key,c=0;
         cin>>n;
@@ -21,6 +21,7 @@ int main()
             }
         }
         cout<<c<<endl;
+        t--;
     }
     return 0;
 }
